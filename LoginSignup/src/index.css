@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  box-sizing:border-box;
+}
+body{
+ 
+  font-family: "Ubuntu Sans", sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/background.jpg);
+  background-size:cover;
+  width: 100vw;
+ 
+
+}
+

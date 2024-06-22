@@ -1,0 +1,342 @@
+
+.header{
+    height: 77px;
+    background:#0D1321; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-left: 20px;
+}
+span{
+    color: chocolate;
+}
+.header .home{
+    color: #FF8A00;
+    padding: 20px;
+    text-decoration: none;  
+}
+.logo-text span{
+    font-size: 96;
+}
+
+
+ .container{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;  
+    /* border: 5px solid; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    gap: 100px; */
+    /* transform: translate(-50%, -50%);   */
+} 
+
+.left-text .heading{
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+}
+.left-text .one-liner{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.left-text .plan{
+    font-size: 48px;
+    color: #fff;
+    font-weight: lighter ;
+}
+.right-box{
+    
+    background-color: rgba(255, 255, 255, 0.49);
+    height: 482px;
+    width: 478px;
+    border-radius: 39px ;
+    margin-left: 10px;
+    /* margin: auto; */
+    margin-right: 30px ;
+    margin-top: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin: auto;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    margin: 10px;
+    padding: 10px;
+}
+.inputs input{  
+    width: 427px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+.left-text{
+    margin-left: 10%;
+}
+input::placeholder{
+    padding: 10px ;
+    font-size: 17;
+    color: #787878;
+}
+.submit-btn{
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+.submit-btn {
+    width: 427px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #FF8A00 ;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+.main-text{
+    margin-bottom: px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #0D1321;
+    font-weight: 800;
+}
+.forget-txt{
+    color: #fff;
+}
+.forget-txt a{   
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* .header{
+    height: 77px;
+    background:#0D1321; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-left: 20px;
+}
+span{
+    color: #FF8A00;
+}
+.header .home{
+    color: #FF8A00;
+    padding: 10px;
+}
+.content{
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto ;
+    padding: 50px;   
+}
+.content-txt{
+    max-width: min-content;
+    padding-left: 120px;
+}
+.content-txt h1{
+    font-size: 64px;
+    margin-bottom: 0;
+}
+.content-txt span{
+    font-size: 96px;
+}
+.content-txt .one-liner{
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 0px;
+    margin-top: 0;
+}
+.content-txt .content-plan{
+    font-size: 48px;
+    font-weight: lighter;
+    max-width: 100%;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0.49);
+    height: 482px;
+    width: 498px;
+    border-radius: 39px ;
+    margin:auto 120px auto auto;  
+    flex-shrink: 5;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    font-weight: light;
+    color: #fff;
+    
+}
+.inputs input{
+    width: 427px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+input::placeholder{
+    padding: 10px ;
+    font-size: 17;
+    color: #787878;
+}
+.inputs p{
+    font-size: 24px;
+    font-weight: bold;
+    color:#0D1321 ;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+}
+.submit-btn button{
+    width: 427px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #FF8A00 ;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.submit-btn{
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .content-txt, .content-box{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack boxes vertically */
+    /* }
+    .content-txt, .content-box {
+        width: 90%; /* Adjust width to be responsive */
+        /* height: 200px ; /* Allow height to adjust based on content */
+    /* } */
+/* } */
+/* @media (max-width: 480px) {
+    .content-txt, .content-box{
+        width: 95%;
+        margin: 5px;
+    /* } */
+/* }  */ 
+
+/* header{
+    height: 77px;
+    background:#0D1321; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+header .logo{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-left: 20px;
+}
+span{
+    color: #FF8A00;
+}
+
+header .home{
+    color: #FF8A00;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    align-items:center;
+    /* background-color: #fff; */
+/* } */
+/* .left{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.49);
+    height: 482px;
+    width: 498px;
+    border-radius: 39px ;
+    /* margin:auto; */
+    
+/* } */
+/* .input-box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* .input-box input{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
